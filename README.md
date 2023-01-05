@@ -3,6 +3,7 @@
 ### 用法
 * npm install 安装依赖
 * 获取掘金页面的token, 打开src/index.js，将获取的token赋值给token变量即可，运行此文件即可。
+![image](https://user-images.githubusercontent.com/46256924/210682805-65074271-3b3f-4e5f-af27-1c0775144b36.png)
 ### 问题
 #### 如何获取Cookie
 掘金网站Cookie, 打开浏览器，登录 掘金, 打开控制台DevTools(快捷键F12) -> Network，复制 cookie, 掘金Cookie有效期约1个月需定期更新.
