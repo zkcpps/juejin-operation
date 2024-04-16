@@ -1,16 +1,16 @@
-name: Auto sign up juejin!
+# name: Auto sign up juejin!
 
-on:
-  schedule:
-    - cron: "18 * * * *"
+# on:
+#   schedule:
+#     - cron: "18 * * * *"
 
-jobs:
-  CheckIn:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-      - name: Run Project
-        run: |
-          npm install
-          npm run test
+# jobs:
+#   CheckIn:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#       - name: Run Project
+#         run: |
+#           npm install
+#           npm run test
