@@ -2,7 +2,7 @@ name: Auto sign up juejin!
 
 on:
   schedule:
-    - cron: "25 * * * *"
+    - cron: "40 * * * *"
 
 jobs:
   CheckIn:
@@ -12,5 +12,5 @@ jobs:
       - uses: actions/setup-node@v2
       - name: Run Project
         run: |
-          cd src
-          node index.js
+          yarn
+          yarn test
