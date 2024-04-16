@@ -2,7 +2,7 @@ name: Auto sign up juejin!
 
 on:
   schedule:
-    - cron: "52 * * * *"
+    - cron: "2 * * * *"
 
 jobs:
   CheckIn:
