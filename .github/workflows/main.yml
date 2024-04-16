@@ -2,15 +2,15 @@ name: Auto sign up juejin!
 
 on:
   schedule:
-    - cron: "40 * * * *"
+    - cron: "52 * * * *"
 
 jobs:
   CheckIn:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout
+      - uses: actions/setup-node
       - name: Run Project
         run: |
-          yarn
-          yarn test
+          npm install
+          npm run test
