@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "juejin-helper": "^1.6.1"
+    "juejin-helper": "^1.7.2"
   }
 }
