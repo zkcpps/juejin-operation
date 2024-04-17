@@ -1,10 +1,7 @@
 const fixBug = require("./fix-bug");
 const signIn = require("./sign-in");
 
-const token = "s_v_web_id=verify_lv1u82c5_KyWTitHR_Wzoz_4DM7_B7km_KHtyDjSr040B; _tea_utm_cache_2608=undefined; __tea_cookie_tokens_2608=%257B%2522web_id%2522%253A%25227358305134722713151%2522%252C%2522user_unique_id%2522%253A%25227358305134722713151%2522%252C%2522timestamp%2522%253A1713238934441%257D; passport_csrf_token=3ab53d1fe2bdc3d8885f530d3cf184f1; passport_csrf_token_default=3ab53d1fe2bdc3d8885f530d3cf184f1; _ga=GA1.2.1991443312.1713251750; _gid=GA1.2.1976197511.1713251750; _ga_S695FMNGPJ=GS1.2.1713251751.1.0.1713251751.60.0.0; msToken=N_hyU6SPIgFY4AI79WHsFdt2891dnRcCQT-sc5PlGPRWGhy5jejbCzkItyBpGaN2iI7RbNktb2OyM9nw7qw1mVFZ_yF_vbMlrte2JIHAfbhxXJQUJcu9aTMD0mbTiqA=";
-
-// 清除bug
-fixBug(token);
+const token = "csrf_session_id=d9f7ce5d2bd3a599bda4284c9dcd8a54; _tea_utm_cache_2608=undefined; __tea_cookie_tokens_2608=%257B%2522web_id%2522%253A%25227358305134722713151%2522%252C%2522user_unique_id%2522%253A%25227358305134722713151%2522%252C%2522timestamp%2522%253A1713238934441%257D; passport_csrf_token=3ab53d1fe2bdc3d8885f530d3cf184f1; passport_csrf_token_default=3ab53d1fe2bdc3d8885f530d3cf184f1; store-region=cn-gd; store-region-src=uid; _ga=GA1.2.1991443312.1713251750; _ga_S695FMNGPJ=GS1.2.1713251751.1.0.1713251751.60.0.0; n_mh=ZTZFiiWKrzklhzViHoddljtlDeDE1CwtPULaZy5Qnoo; msToken=L9_9RsEZHBq8wx3bAFXlPH3FE67GfHIH1uwdENfyMdXwXT2BfSHn1OZ_5-1sZeYKijVthL9YxIVB0Zw0YHUCHN5d8q2GSJLfD-cdidBnhQBWi5DlVifZDePf64EzJJ0=; passport_auth_status=f6ee723f1f97e181165bc713cb046588%2C123db46ffa2d1aaa946297fc85bf2128; passport_auth_status_ss=f6ee723f1f97e181165bc713cb046588%2C123db46ffa2d1aaa946297fc85bf2128; sid_guard=005c52b712212a3b6808df40e0f13121%7C1713348818%7C31536000%7CThu%2C+17-Apr-2025+10%3A13%3A38+GMT; uid_tt=5cce71287cdd016788698afaf4012a8f; uid_tt_ss=5cce71287cdd016788698afaf4012a8f; sid_tt=005c52b712212a3b6808df40e0f13121; sessionid=005c52b712212a3b6808df40e0f13121; sessionid_ss=005c52b712212a3b6808df40e0f13121; sid_ucp_v1=1.0.0-KDhkZDYxNjJlZmQ5YmUxNDA3Y2VkMmEwODg4OTJkZDg4YWVkNTM0MzUKFwjd67Dyj4zAAxDSwf6wBhiwFDgCQPEHGgJobCIgMDA1YzUyYjcxMjIxMmEzYjY4MDhkZjQwZTBmMTMxMjE; ssid_ucp_v1=1.0.0-KDhkZDYxNjJlZmQ5YmUxNDA3Y2VkMmEwODg4OTJkZDg4YWVkNTM0MzUKFwjd67Dyj4zAAxDSwf6wBhiwFDgCQPEHGgJobCIgMDA1YzUyYjcxMjIxMmEzYjY4MDhkZjQwZTBmMTMxMjE";
 
 // 签到 + 沾喜气 + 抽奖
 signIn(token);
