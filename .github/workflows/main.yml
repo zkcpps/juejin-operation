@@ -2,7 +2,7 @@ name: Auto sign up juejin!
 
 on:
   schedule:
-    - cron: "25 * * * *"
+    - cron: "55 * * * *"
 
 jobs:
   CheckIn:
@@ -12,9 +12,9 @@ jobs:
       - uses: actions/setup-node@v4
       - uses: pnpm/action-setup@v3
         name: Install pnpm
-          with:
-            version: 8
-            run_install: false
+        with:
+          version: 8
+          run_install: false           
       - name: Run Project
         run: |
           pnpm i
