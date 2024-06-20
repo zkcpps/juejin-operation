@@ -20,14 +20,14 @@ async function run(token) {
   console.info("今日签到状态: " + (await growth.getTodayStatus()));
 
   // 获取幸运客户
-  const res = await growth.getLotteriesLuckyUsers({ page_no: 1, page_size: 5 });
+  // const res = await growth.getLotteriesLuckyUsers({ page_no: 1, page_size: 5 });
 
-  console.info("幸运抽奖用户: " + res.lotteries[0].history_id);
+  // console.info("幸运抽奖用户: " + res.lotteries[0].history_id);
 
-  const luckInfo = await growth.dipLucky(res.lotteries[0].history_id);
+  // const luckInfo = await growth.dipLucky(res.lotteries[0].history_id);
 
   // 沾喜气
-  console.info("沾喜气: " + JSON.stringify(luckInfo));
+  // console.info("沾喜气: " + JSON.stringify(luckInfo));
 
   // 抽奖
 
